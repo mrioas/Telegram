@@ -1,9 +1,9 @@
 import hashlib
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from telegram import Update
+#from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+#from telegram import Update
 
-async def hello(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(f'Hello {update.effective_user.first_name}')
+#async def hello(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+#    await update.message.reply_text(f'Hello {update.effective_user.first_name}')
 
 
 def main():
@@ -16,6 +16,6 @@ def main():
 
     #app.add_handler(CommandHandler("hello", hello))
     #app.run_polling()
-    print(token)
+    print("MyToken",token)
 if "__name__" == "__main__":
     main()
