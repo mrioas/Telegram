@@ -1,0 +1,10 @@
+token.txt
+bin/
+build/
+dist/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+

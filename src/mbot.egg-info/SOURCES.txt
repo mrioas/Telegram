@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/mbot.py
+src/mbot.egg-info/PKG-INFO
+src/mbot.egg-info/SOURCES.txt
+src/mbot.egg-info/dependency_links.txt
+src/mbot.egg-info/entry_points.txt
+src/mbot.egg-info/requires.txt
+src/mbot.egg-info/top_level.txt
