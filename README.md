@@ -14,5 +14,8 @@ You need put token in a file called token.txt in root project.
 
 
 ```python -m venv .```
+
+
+
 ```pip install --editable .```
 
